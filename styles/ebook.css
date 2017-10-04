@@ -62,6 +62,7 @@ p.titlepageSub {
   margin-bottom: 10pt !important;
   margin-top: 0pt;
 }
+
 #ack {
   margin-bottom: 10pt !important;
   margin-top: 0pt;
@@ -80,7 +81,6 @@ p.titlepageSub {
   font-weight: 300;
   margin-top: 24pt;
   text-align: center;
-
 }
 html,
 body,
@@ -169,7 +169,7 @@ html {
   font-weight: normal;
   font-size: 10.75pt;
   color: black;
-  hyphens: auto;
+  hyphens: none;
 }
 
 p {
@@ -179,7 +179,7 @@ p {
   text-align: justify;
   margin-bottom: 0pt;
   letter-spacing: 0.2pt;
-  word-spacing: 0.7pt;
+  word-spacing: 0.2pt;
   orphans: 2;
   widows: 2;
 }
@@ -266,12 +266,18 @@ var .Italic {
   font-style: normal;
 }
 
+sub {
+  font-size: 0.675em;
+  line-height: 1.2;
+  vertical-align: sub;
+  vertical-align: -20%;
+}
+
 sup {
-  font-size: 9.75pt;
-  font-weight: inherit;
-  position: relative;
-  top: -3px;
-  vertical-align: baseline;
+  font-size: 0.675em;
+  line-height: 1.2;
+  vertical-align: super;
+  vertical-align: 35%;
 }
 
 .references p {
@@ -320,7 +326,6 @@ blockquote p {
 
 blockquote  p.att { text-align: right; }
 
-h1,
 h2,
 h3,
 h4,
@@ -333,6 +338,7 @@ h6 {
 }
 
 h1 {
+  font-family: "Gentium Basic", serif;
   font-weight: normal;
   font-size: 26pt;
   color: black;
@@ -360,7 +366,7 @@ h1.colophon {
   color: black;
   margin-bottom: 2em;
   text-align: left;
-  text-transform: none;;
+  text-transform: none;
   adobe-hyphenate: none;
   -webkit-hyphens: none;
   -epub-hyphens: none;
@@ -408,12 +414,16 @@ h5 {
 
 body {
   counter-reset: chapter;
+  line-height: 1.5;
+}
+
+body * {
+  line-height: inherit;
 }
 
 .one ol li {
   list-style-type: decimal;
 }
-
 
 h1:before {
   display: block;
@@ -446,13 +456,6 @@ li[id*="fn"] {
   text-indent: 0;
   font-size: 9.75pt;
   margin-left: 1.3pc;
-}
-
-a.footnoteRef {
-  border-bottom: 0;
-  line-height: 0;
-  background: none;
-  display: inline;
 }
 
 figure {

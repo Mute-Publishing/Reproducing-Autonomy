@@ -1,0 +1,45 @@
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=692px, height=1039px
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:291:38:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EXTRACT FILEREFS FROM HTML SOURCE FILE:
+
+file:/home/mrc/Github251016/reproducing-autonomy/images/cover-ebook.png
+images/M.svg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 7): 1 element: div
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_000025.xhtml (2 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_000056.xhtml (3 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_000146.xhtml (4 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_000186.xhtml (5 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_000944.xhtml (6 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy-ebook_001294.xhtml (7 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy//epub/OEBPS/styles/ebook.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/toc.ncx
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/nav.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/cover.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_000025.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_000056.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_000146.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_000186.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_000944.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/reproducing-autonomy///epub/OEBPS/text/reproducing-autonomy-ebook_001294.xhtml
+WARN : err:SXXP0005:The source document is in no namespace, but the template rules all expect elements in a namespace (Use --suppressXsltNamespaceCheck:on to avoid this warning)
+INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ COLLECT FILES FOR EPUB PACKAGE:
+
+OEBPS/content.opf
+OEBPS/images/cover-ebook.png
+OEBPS/images/M.svg
+OEBPS/styles/ebook.css
+OEBPS/toc.ncx
+OEBPS/text/cover.xhtml
+OEBPS/text/reproducing-autonomy-ebook_000025.xhtml
+OEBPS/text/reproducing-autonomy-ebook_000056.xhtml
+OEBPS/text/reproducing-autonomy-ebook_000146.xhtml
+OEBPS/text/reproducing-autonomy-ebook_000186.xhtml
+OEBPS/text/reproducing-autonomy-ebook_000944.xhtml
+OEBPS/text/reproducing-autonomy-ebook_001294.xhtml
+mimetype
+META-INF/container.xml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

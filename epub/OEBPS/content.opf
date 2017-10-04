@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:epub="http://www.idpf.org/2007/ops"
+         xmlns:opf="http://www.idpf.org/2007/opf"
+         xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+         xmlns:cx="http://xmlcalabash.com/ns/extensions"
+         xmlns:c="http://www.w3.org/ns/xproc-step"
+         xmlns="http://www.idpf.org/2007/opf"
+         version="2.0"
+         unique-identifier="bookid">
+   <metadata>
+      <dc:identifier id="bookid" opf:scheme="ISBN">9781906496630</dc:identifier>
+      <dc:title>Reproducing Autonomy: Work, Money, Crisis and Contemporary Art</dc:title>
+      <dc:creator>Kerstin Stakemeier</dc:creator>
+      <dc:creator>Marina Vishmidt</dc:creator>
+      <dc:publisher>Mute Books</dc:publisher>
+      <dc:language>en</dc:language>
+      <dc:subject>autonomy, reproduction, art, aesthetics, feminism, theory, materialism, capitalism, labour, gender, politics, economy, political economy, conceptual art</dc:subject>
+      <dc:description.abstract>In this book, Marina Vishmidt and Kerstin Stakemeier analyse ‘autonomy’ and then ‘reproduction’, in the understanding that this method of categorical isolation must be overcome if we are to reach towards the relationship of the two terms. These three essays establish a new framework to locate notions of artistic autonomy and autonomies of art.</dc:description.abstract>
+      <dc:date opf:event="publication">2017-09-01</dc:date>
+      <dc:rights>Mute Books and the authors, anti-copyright</dc:rights>
+      <dc:identifier.URL>http://metamute.org/autonomy</dc:identifier.URL>
+      <dc:date opf:event="modification">2017-10-04</dc:date>
+      <meta name="cover" content="idcover_cover-ebookpng"/>
+   </metadata>
+   <manifest>
+      <item href="images/cover-ebook.png"
+            media-type="image/png"
+            id="idcover_cover-ebookpng"/>
+      <item href="images/M.svg" media-type="image/svg+xml" id="images__Msvg"/>
+      <item href="styles/ebook.css" media-type="text/css" id="styles__ebookcss"/>
+      <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+      <item href="text/cover.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__coverxhtml"/>
+      <item href="text/reproducing-autonomy-ebook_000025.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_000025xhtml"/>
+      <item href="text/reproducing-autonomy-ebook_000056.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_000056xhtml"/>
+      <item href="text/reproducing-autonomy-ebook_000146.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_000146xhtml"/>
+      <item href="text/reproducing-autonomy-ebook_000186.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_000186xhtml"/>
+      <item href="text/reproducing-autonomy-ebook_000944.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_000944xhtml"/>
+      <item href="text/reproducing-autonomy-ebook_001294.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy-ebook_001294xhtml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="text__coverxhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_000025xhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_000056xhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_000146xhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_000186xhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_000944xhtml"/>
+      <itemref idref="text__reproducing-autonomy-ebook_001294xhtml"/>
+   </spine>
+   <guide/>
+</package>
