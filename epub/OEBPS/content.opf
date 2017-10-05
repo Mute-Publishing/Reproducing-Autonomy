@@ -13,7 +13,7 @@
          version="2.0"
          unique-identifier="bookid">
    <metadata>
-      <dc:identifier id="bookid" opf:scheme="ISBN">9781906496630</dc:identifier>
+      <dc:identifier id="bookid" opf:scheme="ISBN">978-1-906496-71-5</dc:identifier>
       <dc:title>Reproducing Autonomy: Work, Money, Crisis and Contemporary Art</dc:title>
       <dc:creator>Kerstin Stakemeier</dc:creator>
       <dc:creator>Marina Vishmidt</dc:creator>
@@ -24,7 +24,7 @@
       <dc:date opf:event="publication">2017-09-01</dc:date>
       <dc:rights>Mute Books and the authors, anti-copyright</dc:rights>
       <dc:identifier.URL>http://metamute.org/autonomy</dc:identifier.URL>
-      <dc:date opf:event="modification">2017-10-04</dc:date>
+      <dc:date opf:event="modification">2017-10-05</dc:date>
       <meta name="cover" content="idcover_cover-ebookpng"/>
    </metadata>
    <manifest>

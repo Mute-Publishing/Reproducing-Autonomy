@@ -2,7 +2,7 @@
 <?xml-model href="http://transpect.io/epubtools/schema/metadata-conf/metadata-conf.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://transpect.io/epubtools/schema/metadata-conf/metadata-conf.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <epub-config xmlns:tr="http://transpect.io"
-  format="EPUB2"
+  format="KF8"
   layout="reflowable"
   css-handling="regenerated-per-split"
   html-subdir-name="text"
@@ -73,7 +73,7 @@
   </types>
 
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier xmlns:ns2="http://www.idpf.org/2007/opf" ns2:scheme="ISBN">9781906496630</dc:identifier>
+    <dc:identifier xmlns:ns2="http://www.idpf.org/2007/opf" ns2:scheme="ISBN">978-1-906496-71-5</dc:identifier>
     <dc:title>Reproducing Autonomy: Work, Money, Crisis and Contemporary Art</dc:title>
     <dc:creator>Kerstin Stakemeier</dc:creator>
     <dc:creator>Marina Vishmidt</dc:creator>
